@@ -1,0 +1,49 @@
+/*
+
+    custom style for art tech manifesto nonsense
+
+*/
+
+
+/** Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site.
+*/
+
+nav.navbar {
+    background-color: #00CEFC;
+}
+
+section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+}
+
+section:nth-of-type(1) {
+
+    background: #000;
+    color: #fff;
+}
+
+section:nth-of-type(2) {
+
+    background: #FD00FE;
+}
+
+section:nth-of-type(3) {
+
+    background: #0BE540;
+}
+
+section:nth-of-type(4) {
+
+    background: #1B0AE5;
+    color: #fff;
+}
+
+section:nth-of-type(5) {
+
+    background: #DFFE00;
+}
+
