@@ -14,8 +14,16 @@ nav.navbar {
     background-color: #00CEFC;
 }
 
+section p {
+    margin-top: 1em;
+    padding: 1em 1em 1em 1em;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
 section {
-    height: 100%;
+    min-height: 100%;
     padding-top: 150px;
     text-align: center;
 }
